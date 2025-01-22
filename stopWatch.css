@@ -1,0 +1,91 @@
+/* stopWatch.css */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: #ffffff;
+}
+
+/* Title styling */
+#myId {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Container for the stopwatch display and controls */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #3a3f47;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Stopwatch display styling */
+#display {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #1e2025;
+    width: 100%;
+    text-align: center;
+    color: #76c7c0;
+}
+
+/* Controls container */
+#controls {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Button styling */
+button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button colors */
+#startBtn {
+    background-color: #4caf50; /* Green */
+    color: #ffffff;
+}
+
+#stopBtn {
+    background-color: #f44336; /* Red */
+    color: #ffffff;
+}
+
+#resetBtn {
+    background-color: #ff9800; /* Orange */
+    color: #ffffff;
+}
+
+/* Button hover effects */
+button:hover {
+    opacity: 0.9;
+}
+
+/* Button focus outline */
+button:focus {
+    outline: 2px solid #ffffff;
+}
