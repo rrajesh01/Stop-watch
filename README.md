@@ -1,2 +1,3 @@
 # Stop-watch
 Web-Based Stopwatch Application Using JavaScript
+The Stopwatch Application is a simple yet functional web-based tool designed to measure elapsed time with precision. Built using HTML, CSS, and JavaScript, it features an intuitive interface with controls to start, stop, and reset the timer. The application dynamically updates the display in real-time, showing hours, minutes, seconds, and milliseconds, utilizing Date.now() for accurate time tracking. It demonstrates essential concepts like DOM manipulation, event handling, and precise time calculations in JavaScript, making it a practical project for learning and showcasing fundamental web development skills. Future enhancements could include lap timing, improved UI/UX, and persistent data storage.
